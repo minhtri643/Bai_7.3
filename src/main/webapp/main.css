@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cd-list-container {
+    margin: 20px;
+}
+
+h2 {
+    color: #009688;
+}
+
+.pbold, .line{
+    display: inline-block;
+    margin-top: 20px;    /* Tạo khoảng cách 20px phía trên */
+    margin-bottom: 20px; /* Tạo khoảng cách 20px phía dưới */
+}
+
+.pbold {
+    font-weight: bold;
+} 
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.tablecart {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.tablecart th, .tablecart td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.tablecart th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.tablecart th:first-child, .tablecart td:first-child {
+    width: 125px; /* Cột Quantity*/
+}
+
+.tablecart th:nth-child(2), .tablecart td:nth-child(2) {
+    width: 350px; /* Cột Description  */
+}
+
+.tablecart th:nth-child(3), .tablecart td:nth-child(3) {
+    width: 75px; /* Cột Price  */
+}
+
+.tablecart th:nth-child(4), .tablecart td:nth-child(4) {
+    width: 75px; /* Cột Amount chứa nút Add To Cart */
+}
+
+.tablecart th:nth-child(5), .tablecart td:nth-child(5) {
+    width: 125px; /* Cột chứa nút Remove*/
+}
+
+button.add-to-cart {
+    background-color: #f9f9f9;  /* Màu nền rất nhạt, gần trắng */
+    border: 1px solid #ccc;     /* Viền mỏng màu xám nhạt */
+    padding: 5px 15px;          /* Khoảng cách giữa nội dung và viền */
+    font-size: 14px;            /* Cỡ chữ vừa phải */
+    color: #333;                /* Màu chữ đậm nhưng không hoàn toàn đen */
+    border-radius: 4px;         /* Bo tròn nhẹ góc */
+    cursor: pointer;            /* Con trỏ dạng pointer khi di chuột */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng nhẹ */
+    transition: background-color 0.3s ease;   /* Hiệu ứng mượt khi hover */
+}
+
+button.add-to-cart:hover {
+    background-color: #ddd;
+}
+
+button {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+form {
+    display: inline;
+}

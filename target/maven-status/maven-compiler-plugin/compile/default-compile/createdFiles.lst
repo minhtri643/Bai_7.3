@@ -1,0 +1,5 @@
+com\mycompany\exchap7_3\JakartaRestConfiguration.class
+com\mycompany\exchap7_3\resources\JakartaEE10Resource.class
+Cart\Addcart\AddToCartServlet.class
+Cart\Addcart\UpdateCartServlet.class
+Cart\product\Product.class
