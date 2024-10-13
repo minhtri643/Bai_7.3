@@ -14,7 +14,7 @@
         </c:when>
         <c:otherwise>
             <form action="updateCart" method="post">
-                <table class = "tablecart">
+                <table class="tablecart">
                     <tr>
                         <th>Quantity</th>
                         <th>Description</th>
@@ -31,11 +31,11 @@
                             <td>${product.name}</td>
                             <td>${product.price}</td>
                             <td>${product.totalPrice}</td>
-                                <td><a href="AddToCartServlet?action=remove&Product=${product.name}">Remove</a></td>
+                            <td><a href="AddToCartServlet?action=remove&Product=${product.name}">Remove</a></td>
                         </tr>
                     </c:forEach>
                 </table>
-                <p class = "pbold"> To change the quantity</p><p class= "line">, enter the new quantity and dick on the Update button </p>
+                <p class="pbold">To change the quantity</p><p class="line">, enter the new quantity and click on the Update button</p>
             </form>
         </c:otherwise>
     </c:choose>
